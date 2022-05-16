@@ -1,6 +1,7 @@
 # Cloud Native SecurityCon
 Tags: #security #kubernetes
 
+- Software Supply Chain Best Practices : [[CNCF_SSCP_v1.pdf]]
 
 ## DevSecOps and the art of not ending up on the front page
 *Presenter: Fabio Rapposelli - Senior Staff Engineer, VMware @fabiorapposelli*
