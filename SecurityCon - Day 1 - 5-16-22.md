@@ -163,3 +163,21 @@ Tags: #security
 - Several major efforts aiming to link SBOMs to CVE
 - CVEs don't tell the whole story -> Not everything is affected by its vulnerabilities!
 - CVE noise in large environments limits the effectiveness of these programs
+
+### Working around the gap
+- Upgrade in any cases (costs?)
+- Customers may mitigate the vulnerability with secondary controls
+- Customers may accept the risk
+- Customers may eliminate the risk by disabling the product
+- Customers may also transfer the risk via insurance...
+
+### What is Vex ?
+ VEX stands for Vulnerability Exploitability eXchange.
+ It's a profile which allows for organizations to make statements about whether a product is **affected** by a vulnerability.
+
+![[Pasted image 20220516145022.png]]
+
+- SBOMS tell you what is your infrastructure
+- CVEs tell you what vulnerabilities are in your environment
+- VEX tell you which vulnerability you are affected by
+
