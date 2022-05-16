@@ -182,3 +182,28 @@ Tags: #security
 - VEX tell you which vulnerability you are affected by
 
 - No Database for the moment
+
+
+# Detecting Data Exfiltration on the Edge with Pixie 
+*Presenters: Zain Asgar, New Relic*
+
+Not for production, just some ideas
+
+## Data Exfiltration Risks
+- Leaks of informations like credit cards, SSNs, phone numbers etc...
+- Cost money
+
+## What is Pixie ?
+https://px.dev/
+
+- Performance debugging without manual instrumentation
+	- CPU, Memory, Network
+	- Message spans with latency, contents
+	- Performance profiles (flamegraphs)
+- Zero intrumentation: No manual intrumentation zith eBPF
+- Distributed architecture with in-memory datastore
+- Scriptable Python/Pandas interface
+
+
+
+
