@@ -252,3 +252,5 @@ https://px.dev/
 	- Data gaps
 - Limited guidance on how to secure the software supply chain tooling
 
+![[Pasted image 20220516155112.png]]
+
