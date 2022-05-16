@@ -269,3 +269,9 @@ https://px.dev/
 
 # The Unexpected Demise of Open Source Libraries
 *Presents: Liran Tal, Synk*
+
+- Reinstalling packages from registries is inefficient and non-deterministic
+
+Tools: Verdacio
+https://verdaccio.org/fr-fr/
+
