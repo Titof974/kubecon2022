@@ -242,7 +242,7 @@ https://px.dev/
 - 5 - Maintain a Dependency Inventory
 
 # Using CNCF Best Practices for Software Supply Chain to Guide and Enhance Your Security Posture
-*Presents: Ryan Gibbons, 3m & Conor Rogers, Stelligent*
+*Presenters: Ryan Gibbons, 3m & Conor Rogers, Stelligent*
 
 [[CNSC-EU-2022-RG_CR_v0.2.pdf]]
 
@@ -267,3 +267,5 @@ https://px.dev/
 - 4 - Securing the Artefacts
 - 5 - Securing the Deployments
 
+# The Unexpected Demise of Open Source Libraries
+*Presents: Liran Tal, Synk*
