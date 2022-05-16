@@ -89,3 +89,37 @@ Tags: #CI #CD #tools
 - Best way to learn about security
 - https://github.com/kubernetes-simulator/simulator - Kubernetes Security Training Platform - Focussing on security mitigation
 - Taskmaster - https://cloud-native.slack.com
+
+# Security Champions: The What, Why, and How 
+*Presenters: Ann Marie Fred, Red Hat*
+
+- Cost of a data breach ~ Ignorance is not a defense
+- 2021:
+	-  24% companies has been hacked or suspected to 
+	- Average data breach: 4.24 Millions $
+	- Over 18k CVE
+	- 66 Zero Day vulnerabilities
+
+# Protect the Pipe! A Policy-based Approach for Securing CI/CD Pipelines 
+*Presenters: Shripad Nadgowda, IBM Research & Jim Bugwadia, Nirmata*
+
+Tags: #security #tools #kubernetes 
+
+## Stack
+### Tekton
+https://tekton.dev/
+Cloud native CD
+
+### In-toto
+https://in-toto.io/
+
+### Sigstore
+https://www.sigstore.dev/
+Signing software artifact
+
+### Kyverno
+https://kyverno.io/
+- Policy engine designed for kubernetes
+- Automate security
+- Work with in-toto
+
