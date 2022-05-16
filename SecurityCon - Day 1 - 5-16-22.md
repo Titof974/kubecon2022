@@ -254,3 +254,16 @@ https://px.dev/
 
 ![[Pasted image 20220516155112.png]]
 
+## SSCP - The Principles
+- 1 - Trust
+- 2 - Automation
+- 3 - Clarity
+- 4 - Mutual Authentication
+
+## SSCP - The Practices
+- 1- Securing The source code
+- 2 - Securing Materials
+- 3 - Securing Build Pipelines
+- 4 - Securing the Artefacts
+- 5 - Securing the Deployments
+
