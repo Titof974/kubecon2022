@@ -123,3 +123,7 @@ https://kyverno.io/
 - Automate security
 - Work with in-toto
 
+# TUF Maintainer Panel Discussion
+*Presenters: Moderated by Andrew Krug, Datadog; Asra Ali, Google; Marina Moore, NYU; Trishank Karthik Kuppusamy, Datadog; & Jussi Kukkonen, VMware*
+
+
