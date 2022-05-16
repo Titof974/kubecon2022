@@ -272,6 +272,8 @@ https://px.dev/
 
 - Reinstalling packages from registries is inefficient and non-deterministic
 
-Tools: Verdacio
+Tools Verdacio
 https://verdaccio.org/fr-fr/
 
+Tool: https://snyk.io/advisor/
+	- Check if npm package is safe
