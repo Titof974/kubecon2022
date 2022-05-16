@@ -209,5 +209,33 @@ https://px.dev/
 # What’s Inside Your Container Image? How to Audit All the Dependencies in Your software Supply-Chain
 *Presenters: Steve Judd, Jetstack*
 
+[[Auditing-dependencies-in-containers.pdf]]
+
+## What is The Software Supply Chain ?
+- What make up our product ?
+- Where did the components come from ?
+- Where are components used ?
+- Who has control over the components ?
 
 
+## What did we want to achieve ?
+- Component inventory
+- Vulnerability tracking
+- License compliance
+- Discoverability (Single point to look at the informations)
+
+## How ? 5 - Steps to dependency auditing
+- 1 - Use only a trusted Image registry
+	- Much more control on the image
+	- Use your own cache registry (Artifactory, Nexus, Harbor, etc...)
+	- Not be dependend
+- 2 - Generate Image SBOMs (Tool: Syft)
+	- https://github.com/anchore/syft
+- 3 - Evaluate the Image (Tool: Dependency Track)
+	- https://github.com/DependencyTrack/dependency-track
+- 4 - Approve / Deny / Mitigate
+	- If an Image is compliant:
+		- Sign & Push SBOM (Tools: cosign)
+		- Sign Image
+		- Create, sign & push compliance attestation
+- 5 - Maintain a Dependency Inventory
