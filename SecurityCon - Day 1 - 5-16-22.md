@@ -187,6 +187,8 @@ Tags: #security
 # Detecting Data Exfiltration on the Edge with Pixie 
 *Presenters: Zain Asgar, New Relic*
 
+Tags: #tools  #monitoring
+
 Not for production, just some ideas
 
 ## Data Exfiltration Risks
@@ -204,6 +206,8 @@ https://px.dev/
 - Distributed architecture with in-memory datastore
 - Scriptable Python/Pandas interface
 
+# What’s Inside Your Container Image? How to Audit All the Dependencies in Your software Supply-Chain
+*Presenters: Steve Judd, Jetstack*
 
 
 
