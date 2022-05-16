@@ -181,3 +181,4 @@ Tags: #security
 - CVEs tell you what vulnerabilities are in your environment
 - VEX tell you which vulnerability you are affected by
 
+- No Database for the moment
