@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "14ec8b702a603b7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "95bd3ffe9159a062",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SecurityCon - Day 1 - 5-16-22.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "212129a57e1fe998",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b761977c3118ef7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddea4bace2636a78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b348d37da656af73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a21353fa61c6bb69",
+    "type": "split",
+    "children": [
+      {
+        "id": "80ab0cc51596a44f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3222049d1cb37bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SecurityCon - Day 1 - 5-16-22.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "95bd3ffe9159a062",
+  "lastOpenFiles": [
+    "SecurityCon - Day 1 - 5-16-22.md",
+    "README.md"
+  ]
+}
