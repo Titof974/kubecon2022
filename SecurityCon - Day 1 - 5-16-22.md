@@ -239,3 +239,15 @@ https://px.dev/
 		- Sign Image
 		- Create, sign & push compliance attestation
 - 5 - Maintain a Dependency Inventory
+
+# Using CNCF Best Practices for Software Supply Chain to Guide and Enhance Your Security Posture
+*Presents: Ryan Gibbons, 3m & Conor Rogers, Stelligent*
+
+[[CNSC-EU-2022-RG_CR_v0.2.pdf]]
+
+## The Situation
+- Lack of awarness of software supply chain security practices
+	- Knowledge gaps
+	- Data gaps
+- Limited guidance on how to secure the software supply chain tooling
+
