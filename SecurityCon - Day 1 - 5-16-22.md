@@ -82,3 +82,10 @@ Tags: #CI #CD #tools
 ### Dive Into Mechanics
 - Understand why it's like this
 - Find the issue, the history of the implementation (like for example on github...)
+
+# CTF
+*Presenters: Lewis @denhamparry, James @jpts_, andy @sublimino*
+
+- Best way to learn about security
+- https://github.com/kubernetes-simulator/simulator - Kubernetes Security Training Platform - Focussing on security mitigation
+- Taskmaster - https://cloud-native.slack.com
