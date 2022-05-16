@@ -1,6 +1,6 @@
 # Cloud Native SecurityCon
 Tags: #security #kubernetes
-[[Fuzzing the CNCF landscape-final-slides.pdf]]
+
 
 ## DevSecOps and the art of not ending up on the front page
 *Presenter: Fabio Rapposelli - Senior Staff Engineer, VMware @fabiorapposelli*
@@ -13,6 +13,8 @@ Tags: #sbom #security  #tools
 
 # Fuzzing the CNCF landscap
 *Presenter: adalogics.com, Adam Korczynski, David Korczynski*
+
+[[Fuzzing the CNCF landscape-final-slides.pdf]]
 
 Tags: #security #tools #fuzzing
 
@@ -43,4 +45,40 @@ while(true)
 
 ### CNCF projects being fuzzed
 - https://github.com/cncf/cncf-fuzzing
-- Istio will come in the fuzzed project !
+- Istio will come in the fuzzed projects !
+
+# Dissecting the Discovery of the 0-Day Supply Chain Vulnerability in Argo CD
+*Presenter: Moshe Zioni, Apiiro*
+
+https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments/
+
+Tags: #CI #CD #tools 
+
+## What is Argo CD ?
+- https://argo-cd.readthedocs.io/en/stable/ 
+- An open-source GitOps CD tool under CNCF
+
+## CVE-2022-24348
+- NOT the most dangerous
+- Targets critical supply chain junction - Popular Continous Delivery infrastructure.
+- Utilization of payload by a native supply chain artifact (Helm Chart)
+
+![[Pasted image 20220516105314.png]]
+
+
+## Discovery - Research Approach (3-Steps)
+### Explore
+- Familiarize yourself with the project, documentation, codebase...
+- Build a model to play with... tweak around... 
+- Run by tutorials for peripheral views
+
+### Realize Use Cases
+- Basic Flows...
+- Try different ways to achieve the same things - UX, API...
+- Security concerns and hardening reveals on the "not-use" cases
+- Plugins and extended usage
+
+
+### Dive Into Mechanics
+- Understand why it's like this
+- Find the issue, the history of the implementation (like for example on github...)
