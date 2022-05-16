@@ -1,5 +1,6 @@
 # Cloud Native SecurityCon
 Tags: #security #kubernetes
+[[Fuzzing the CNCF landscape-final-slides.pdf]]
 
 ## DevSecOps and the art of not ending up on the front page
 *Presenter: Fabio Rapposelli - Senior Staff Engineer, VMware @fabiorapposelli*
