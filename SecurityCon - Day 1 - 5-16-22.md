@@ -126,4 +126,40 @@ https://kyverno.io/
 # TUF Maintainer Panel Discussion
 *Presenters: Moderated by Andrew Krug, Datadog; Asra Ali, Google; Marina Moore, NYU; Trishank Karthik Kuppusamy, Datadog; & Jussi Kukkonen, VMware*
 
+Tags: #security #tools #toolbox
 
+## What is TUF ?
+https://theupdateframework.io/
+
+- A framework for securing software update systems
+- Multiple tools for security
+
+# VEX! or... How to Reduce CVE Noise With One Simple Trick!
+*Presents: Frederick Kautz, Anthem*
+
+Tags: #security 
+
+## Cost to an Attacker
+- Risks and Rewarfs
+- Reward / Time
+- Reward / Financial cost (value of the attack)
+- Reward / Penalty if caught
+- Reward / Chance of being caught
+
+## Cost to a Defender
+- Single Loss Expectancy
+	- SLE = Assets Value * Exposure value
+- Annualized loss Expectancy
+	- ALE = ANnual Rate of Occurence * SLE
+- Residual Value
+	- RV = Asset Value - Cost to Protect
+
+## VEX
+### Vulnerability Modeling Gap
+- SBOMs are Static
+- Vulnerabilities are Dynamic
+
+### CVEs
+- Several major efforts aiming to link SBOMs to CVE
+- CVEs don't tell the whole story -> Not everything is affected by its vulnerabilities!
+- CVE noise in large environments limits the effectiveness of these programs
