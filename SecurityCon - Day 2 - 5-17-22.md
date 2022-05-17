@@ -50,4 +50,35 @@ Tags: #security #encryption
 - Quantum Cumputing can break encryption we used today in as little as 10 seconds
 
 
+## Vanquishing Vulnerabilities in Valencia
+*Presenters: Alba Ferri Fitó, Sysdig & Eric Smalling, Synk*
+
+Tags: #security 
+
+### Minimize footprint
+Don't give hackers more tools to expand their exploits
+Stick to smallest containers and do not provide tools!
+
+### Layer Housekeeping
+Understand how layers work at build and run-time
+
+### Build strategies
+Multistage, repeatable builds, standardized labeling, alternative tools
+
+### Secure Supply Chain
+Know where image come from. Only CI should push to registries !!!
+
+## Security Context
+- Don't container as root
+- Don't do privileged containers
+- Drop capabilites
+	-  Most apps don't need event Linux capabilityes, dropping all and allow only what's need
+- Read only Root Filesystem
+	- Immutability makes exploiting hard
+
+
+### Network Policy
+- Start with nothing working, only DNS for service discory
+- Whitelist only what you need !
+- Limit the connection way like Webapp to DB and not DB to Webapp
 
