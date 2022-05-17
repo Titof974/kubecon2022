@@ -4,7 +4,7 @@ Tags: #security #kubernetes
 - Software Supply Chain Best Practices : [[CNCF_SSCP_v1.pdf]]
 
 ## DevSecOps and the art of not ending up on the front page
-*Presenter: Fabio Rapposelli - Senior Staff Engineer, VMware @fabiorapposelli*
+*Presenters: Fabio Rapposelli - Senior Staff Engineer, VMware @fabiorapposelli*
 
 Tags: #sbom #security  #tools
 
@@ -13,7 +13,7 @@ Tags: #sbom #security  #tools
 	- Other tools: [in-toto](https://in-toto.io/), [cartographer](https://cartographer.sh/), [sigstore](https://www.sigstore.dev/), Open Policy Agent...
 
 # Fuzzing the CNCF landscap
-*Presenter: adalogics.com, Adam Korczynski, David Korczynski*
+*Presenters: adalogics.com, Adam Korczynski, David Korczynski*
 
 [[Fuzzing the CNCF landscape-final-slides.pdf]]
 
@@ -49,7 +49,7 @@ while(true)
 - Istio will come in the fuzzed projects !
 
 # Dissecting the Discovery of the 0-Day Supply Chain Vulnerability in Argo CD
-*Presenter: Moshe Zioni, Apiiro*
+*Presenters: Moshe Zioni, Apiiro*
 
 https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments/
 
@@ -136,7 +136,7 @@ https://theupdateframework.io/
 - Multiple tools for security
 
 # VEX! or... How to Reduce CVE Noise With One Simple Trick!
-*Presents: Frederick Kautz, Anthem*
+*Presenters: Frederick Kautz, Anthem*
 
 Tags: #security 
 
@@ -268,7 +268,7 @@ https://px.dev/
 - 5 - Securing the Deployments
 
 # The Unexpected Demise of Open Source Libraries
-*Presents: Liran Tal, Synk*
+*Presenters: Liran Tal, Synk*
 
 - Reinstalling packages from registries is inefficient and non-deterministic
 
