@@ -158,4 +158,11 @@ Book: Report - What is eBPF ?
 	- Tools: Cilium Tetragon
 	- https://github.com/cilium/tetragon
 
+## Close
+Papers:
+- Cloud native Security Whitepaper v2
+- Secure software factory reference architecture paper
+https://github.com/cncf/tag-security
+
+
 
