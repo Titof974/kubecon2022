@@ -82,3 +82,41 @@ Know where image come from. Only CI should push to registries !!!
 - Whitelist only what you need !
 - Limit the connection way like Webapp to DB and not DB to Webapp
 
+### Admission Controller
+#### Enforcement
+- OPA (GateKeeper)
+- Kyverno
+- Pod Security Admission
+	-  https://kubernetes.io/docs/concepts/security/pod-security-admission/
+
+### Shift security to left and Shield to the right
+- Be aware of the behavior of exploits
+- Runtime container security
+	- If we know the normal behavior of our container we can be alterted when you have unsual behaviors
+	- Intercept data
+	- Filter and apply rules
+	- Send alerts in real time
+	- Use simple, common rules language
+- We needed to be alterted as soon as possible
+
+### Runtime intelligence
+- What libraries are loaded ?
+- Which have known exploits ?
+- Do you have a fix?
+
+## First Steps to Full Lifecycle Security with Open Source Tools
+*Presents: Rory McCune & Anais Urlichs, Aqua Security*
+
+[[First Steps to Full Lifecycle Security with Open Source Tools - HackMD.pdf]]
+
+- https://aquasecurity.github.io/trivy/v0.28.0/
+
+### Security Scanning Process
+- Before every thing, you need to deploy a scanner to understand what is inside your cluster
+
+### Vulnerability Scanning
+- It's a useful way of assessing base images
+
+## LockC
+https://github.com/lockc-project/lockc
+
