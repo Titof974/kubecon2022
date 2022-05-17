@@ -120,3 +120,38 @@ Know where image come from. Only CI should push to registries !!!
 ## LockC
 https://github.com/lockc-project/lockc
 
+## Recommandations - Bad things in cluster
+- No Network rules
+- No Resource Limits
+- Privileged mode
+- Root user
+- Misplaced credentials
+- Risky capabilities
+	- Cluster had applications running with dangerous Linux capabilities
+
+## Real time security - eBPF for preventing attacks
+*presenters: Liz Rice*
+
+Book: Report - What is eBPF ?
+
+### Runtime security - security in real time
+- Detecting malicious activity in real time
+- Reporting when malicious events occur
+- Preventing them
+
+### What activiy do we care about ?
+- Network traffic
+- File activity
+- Running executables
+- Changing privileges
+
+**All these activities require support from the kernel**
+
+### How could we spot this activity ?
+- LD_PRELOAD
+- ptrace
+- seccomp
+- eBPF
+
+
+
