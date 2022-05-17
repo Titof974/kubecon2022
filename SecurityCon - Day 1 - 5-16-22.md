@@ -1,4 +1,4 @@
-# Cloud Native SecurityCon
+# Cloud Native SecurityCon - Day 1
 Tags: #security #kubernetes
 
 - Software Supply Chain Best Practices : [[CNCF_SSCP_v1.pdf]]
