@@ -54,4 +54,10 @@ More complexe functionnalities or mutation:
 	* pod_security_evaluations_total to get the number of time the policies was it
 	* `kubectl get --raw /metrics | grep pod_security_evaluations_total`
 
+## Next step
+- Use warn and audit on existing namespaces
+	- Use dry-run to evaluate all resources in a namespace when applying an enfoce label to a namespace
+- Set warn to the same level as enforce so that users get early feedback
+- Make a goal to get all workload namespaces to baseline standard
+	- Start with audit and move towards enforce
 
