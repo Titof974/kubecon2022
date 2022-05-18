@@ -45,5 +45,6 @@ More complexe functionnalities or mutation:
 * The audit mode logs to the cluster audit log
 
 ## Pod security in Action
-
+- Check if pod security is enabled
+* Use `--dry-run=server` to test
 
