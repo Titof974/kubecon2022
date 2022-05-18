@@ -42,3 +42,8 @@ More complexe functionnalities or mutation:
 * Start with warn and after that enforce
 	* The typical uses for warn are to get ready for a future change where you want to enforce a different policy
 
+* The audit mode logs to the cluster audit log
+
+## Pod security in Action
+
+
