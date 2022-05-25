@@ -139,7 +139,7 @@ Book: Report - What is eBPF ?
 - Reporting when malicious events occur
 - Preventing them
 
-### What activiy do we care about ?
+### What activity do we care about ?
 - Network traffic
 - File activity
 - Running executables
